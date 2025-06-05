@@ -25,11 +25,11 @@ function App() {
         </div>
 
 
-        <div className="card">
+        
           
            <Card language = {SLanguage}/>
           
-        </div>
+       
       </div>
     </>
   )
