@@ -18,7 +18,7 @@ function App() {
             <button
               key={language.id}
               onClick={() => setSelectedLanguage(language)}
-              className={language.id === selectedLanguage.id ? 'active' : ''}
+              className={language.id === selectedLanguage.id && 'active'}
             >
               {language.title}
             </button>
